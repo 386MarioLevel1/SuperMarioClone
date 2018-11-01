@@ -13,7 +13,7 @@ def run_game():
         (ai_settings.screen_width, ai_settings.screen_height))
 
     screen = pygame.display.set_mode((1200, 800))
-    pygame.display.set_caption("Super Pong 64")
+    pygame.display.set_caption("Super Mario Bro")
 
     # Start the main loop for the game
     while True:
