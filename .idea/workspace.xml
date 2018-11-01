@@ -1,28 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c2ca06fd-382b-4087-8d6f-690d4340fe11" name="Default Changelist" comment="">
+    <list default="true" id="e6de9bca-527d-403e-adf4-29bc76b56fc7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/halloween/15.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/halloween/16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/halloween/17.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/halloween/18.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/halloween/19.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/halloween/20.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/halloween/21.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/halloween/22.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/halloween/23.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/halloween/24.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/halloween/25.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/halloween/26.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/halloween/27.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/halloween/28.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/halloween/29.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/halloween/30.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/halloween/35.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/halloween/36.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/halloween/37.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/halloween/38.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halloween/1up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halloween/Coin0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halloween/Coin1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halloween/Coin2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halloween/Coin3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halloween/FireFlower0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halloween/FireFlower1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halloween/FireFlower2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halloween/FireFlower3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halloween/FireMario0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halloween/FireMario1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halloween/FireMario10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halloween/FireMario11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halloween/FireMario12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halloween/FireMario13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halloween/FireMario14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halloween/FireMario15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halloween/FireMario2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halloween/FireMario3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halloween/FireMario4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halloween/FireMario5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halloween/FireMario6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halloween/FireMario7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halloween/FireMario8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halloween/FireMario9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halloween/Goomba0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halloween/Goomba1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halloween/Goomba2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halloween/Mushroom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halloween/Star0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halloween/Star1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halloween/Star2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halloween/Star3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halloween/SuperMario0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halloween/SuperMario1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halloween/SuperMario10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halloween/SuperMario11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halloween/SuperMario12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halloween/SuperMario13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halloween/SuperMario14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halloween/SuperMario2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halloween/SuperMario4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halloween/SuperMario5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halloween/SuperMario6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halloween/SuperMario7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halloween/SuperMario8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halloween/SuperMario9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halloween/marioDead.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,53 +59,283 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="1432899801">
+    <session id="1483233391">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.14" value="1" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.89" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="foo" value="6" />
+          <entry key="png" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Image" value="2" />
+          <entry key="PLAIN_TEXT" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="foo" value="17" />
+          <entry key="txt" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="25" />
         </counts>
       </usages-collector>
     </session>
   </component>
+  <component name="FileEditorManager">
+<<<<<<< HEAD
+    <leaf />
+=======
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/foo">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="16" selection-start-column="16" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blockImages/foo">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/enemyImages/foo">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/marioImages/foo">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sceneryImages/foo">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+>>>>>>> d74ad5143ba9200465654c73aaf2c95168ac420a
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/foo" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="80" />
-    <option name="y" value="-8" />
-    <option name="width" value="1294" />
-    <option name="height" value="784" />
+    <option name="x" value="-8" />
+    <option name="width" value="977" />
+    <option name="height" value="1088" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="SuperMario" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SuperMario" type="462c0819:PsiDirectoryNode" />
+              <item name="SuperMarioClone" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SuperMarioClone" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+=======
             </path>
             <path>
-              <item name="SuperMario" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SuperMario" type="462c0819:PsiDirectoryNode" />
+              <item name="SuperMarioClone" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SuperMarioClone" type="462c0819:PsiDirectoryNode" />
+              <item name="enemyImages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SuperMarioClone" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SuperMarioClone" type="462c0819:PsiDirectoryNode" />
               <item name="halloween" type="462c0819:PsiDirectoryNode" />
+>>>>>>> d74ad5143ba9200465654c73aaf2c95168ac420a
+            </path>
+            <path>
+              <item name="SuperMarioClone" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SuperMarioClone" type="462c0819:PsiDirectoryNode" />
+              <item name="marioImages" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/blockImages/Thumbs.db</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/enemyImages/Thumbs.db</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/halloween/FireFlower0.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/halloween/FireFlower1.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/halloween/FireFlower2.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/halloween/FireFlower3.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/halloween/FireMario0.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/halloween/FireMario1.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/halloween/FireMario10.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/halloween/FireMario11.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/halloween/FireMario12.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/halloween/FireMario13.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/halloween/FireMario14.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/halloween/FireMario15.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/halloween/FireMario2.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/halloween/FireMario3.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/halloween/FireMario4.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/halloween/FireMario5.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/halloween/FireMario6.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/halloween/FireMario7.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/halloween/FireMario8.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/halloween/FireMario9.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/halloween/Thumbs.db</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/marioImages/Thumbs.db</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/halloween/15.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/halloween/16.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/halloween/17.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/halloween/18.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/halloween/19.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/halloween/20.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/halloween/21.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/halloween/22.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/halloween/23.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/halloween/24.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/halloween/25.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/halloween/26.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/halloween/27.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/halloween/28.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/halloween/29.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/halloween/30.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/halloween/35.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/halloween/36.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/halloween/37.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/halloween/38.png</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -96,18 +354,39 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c2ca06fd-382b-4087-8d6f-690d4340fe11" name="Default Changelist" comment="" />
-      <created>1540862714968</created>
+      <changelist id="e6de9bca-527d-403e-adf4-29bc76b56fc7" name="Default Changelist" comment="" />
+      <created>1540863343750</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1540862714968</updated>
+      <updated>1540863343750</updated>
     </task>
+    <task id="LOCAL-00001" summary="foo file">
+      <created>1540863425492</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1540863425492</updated>
+    </task>
+    <task id="LOCAL-00002" summary="foo file">
+      <created>1540863652608</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1540863652608</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="84" y="-8" width="1290" height="784" extended-state="6" />
+<<<<<<< HEAD
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+=======
+    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24983476" />
+>>>>>>> d74ad5143ba9200465654c73aaf2c95168ac420a
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -118,9 +397,15 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3276923" />
+<<<<<<< HEAD
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32939914" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
+=======
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32885906" />
+      <window_info anchor="bottom" id="Python Console" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+>>>>>>> d74ad5143ba9200465654c73aaf2c95168ac420a
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -128,5 +413,39 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="foo file" />
+    <option name="LAST_COMMIT_MESSAGE" value="foo file" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/foo">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blockImages/foo">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/enemyImages/foo">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/marioImages/foo">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/halloween/Star0.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/halloween/FireFlower0.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/halloween/FireMario5.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sceneryImages/foo">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
   </component>
 </project>
