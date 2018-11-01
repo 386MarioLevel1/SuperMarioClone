@@ -2,7 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2ca06fd-382b-4087-8d6f-690d4340fe11" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/halloween/Thumbs.db" beforeDir="false" afterPath="$PROJECT_DIR$/halloween/Thumbs.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/halloween/15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halloween/16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halloween/17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halloween/18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halloween/19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halloween/20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halloween/21.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halloween/22.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halloween/23.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halloween/24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halloween/25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halloween/26.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halloween/27.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halloween/28.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halloween/29.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halloween/30.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halloween/35.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halloween/36.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halloween/37.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halloween/38.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,16 +39,6 @@
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.89" value="1" />
           <entry key="project.opened" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="txt" value="15" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="PLAIN_TEXT" value="15" />
         </counts>
       </usages-collector>
     </session>
@@ -53,6 +63,11 @@
             <path>
               <item name="SuperMario" type="b2602c69:ProjectViewProjectNode" />
               <item name="SuperMario" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SuperMario" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SuperMario" type="462c0819:PsiDirectoryNode" />
+              <item name="halloween" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -87,20 +102,12 @@
       <option name="presentableId" value="Default" />
       <updated>1540862714968</updated>
     </task>
-    <task id="LOCAL-00001" summary="Hope this works">
-      <created>1541035018403</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1541035018403</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="84" y="-8" width="1290" height="784" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -111,9 +118,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3276923" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3276923" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3276923" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -121,9 +128,5 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Hope this works" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hope this works" />
   </component>
 </project>
