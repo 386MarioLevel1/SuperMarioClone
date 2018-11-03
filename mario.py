@@ -4,7 +4,7 @@ class Mario:
     def __init__(self, screen, ai_settings):
         self.screen = screen
         self.ai_settings = ai_settings
-        self.mario_image = pygame.image.load("marioImages/marioDead.png")
+        self.mario_image = pygame.image.load("enemyImages/Goomba0.png")
         self.rect = self.mario_image.get_rect()
         self.screen_rect = screen.get_rect()
 

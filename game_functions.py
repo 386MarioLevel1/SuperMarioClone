@@ -8,11 +8,13 @@ def check_events(ai_settings, screen):
         if event.type == pygame.QUIT:
             sys.exit()
 
-def update_screen(ai_settings, screen, mario):
+def update_screen(ai_settings, screen, mario, map):
     # Redraw the screen during each pass through the loop.
     screen.fill(ai_settings.bg_color)
 
     mario.blitme()
+
+    map.blitme()
 
     pygame.display.flip()
 
