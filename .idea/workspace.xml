@@ -1,7 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e6de9bca-527d-403e-adf4-29bc76b56fc7" name="Default Changelist" comment="" />
+    <list default="true" id="e6de9bca-527d-403e-adf4-29bc76b56fc7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/mario.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperMarioBro.py" beforeDir="false" afterPath="$PROJECT_DIR$/SuperMarioBro.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/game_functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marioImages/Fire Mario.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/marioImages/FireMario0.png" beforeDir="false" afterPath="$PROJECT_DIR$/marioImages/FireMario0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marioImages/FireMario1.png" beforeDir="false" afterPath="$PROJECT_DIR$/marioImages/FireMario1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marioImages/FireMario10.png" beforeDir="false" afterPath="$PROJECT_DIR$/marioImages/FireMario10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marioImages/FireMario11.png" beforeDir="false" afterPath="$PROJECT_DIR$/marioImages/FireMario11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marioImages/FireMario12.png" beforeDir="false" afterPath="$PROJECT_DIR$/marioImages/FireMario12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marioImages/FireMario13.png" beforeDir="false" afterPath="$PROJECT_DIR$/marioImages/FireMario13.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marioImages/FireMario14.png" beforeDir="false" afterPath="$PROJECT_DIR$/marioImages/FireMario14.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marioImages/FireMario15.png" beforeDir="false" afterPath="$PROJECT_DIR$/marioImages/FireMario15.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marioImages/FireMario2.png" beforeDir="false" afterPath="$PROJECT_DIR$/marioImages/FireMario2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marioImages/FireMario3.png" beforeDir="false" afterPath="$PROJECT_DIR$/marioImages/FireMario3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marioImages/FireMario4.png" beforeDir="false" afterPath="$PROJECT_DIR$/marioImages/FireMario4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marioImages/FireMario5.png" beforeDir="false" afterPath="$PROJECT_DIR$/marioImages/FireMario5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marioImages/FireMario6.png" beforeDir="false" afterPath="$PROJECT_DIR$/marioImages/FireMario6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marioImages/FireMario7.png" beforeDir="false" afterPath="$PROJECT_DIR$/marioImages/FireMario7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marioImages/FireMario8.png" beforeDir="false" afterPath="$PROJECT_DIR$/marioImages/FireMario8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marioImages/FireMario9.png" beforeDir="false" afterPath="$PROJECT_DIR$/marioImages/FireMario9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marioImages/SuperMario0.png" beforeDir="false" afterPath="$PROJECT_DIR$/marioImages/SuperMario0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marioImages/SuperMario1.png" beforeDir="false" afterPath="$PROJECT_DIR$/marioImages/SuperMario1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marioImages/SuperMario10.png" beforeDir="false" afterPath="$PROJECT_DIR$/marioImages/SuperMario10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marioImages/SuperMario11.png" beforeDir="false" afterPath="$PROJECT_DIR$/marioImages/SuperMario11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marioImages/SuperMario12.png" beforeDir="false" afterPath="$PROJECT_DIR$/marioImages/SuperMario12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marioImages/SuperMario13.png" beforeDir="false" afterPath="$PROJECT_DIR$/marioImages/SuperMario13.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marioImages/SuperMario14.png" beforeDir="false" afterPath="$PROJECT_DIR$/marioImages/SuperMario14.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marioImages/SuperMario2.png" beforeDir="false" afterPath="$PROJECT_DIR$/marioImages/SuperMario2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marioImages/SuperMario4.png" beforeDir="false" afterPath="$PROJECT_DIR$/marioImages/SuperMario4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marioImages/SuperMario5.png" beforeDir="false" afterPath="$PROJECT_DIR$/marioImages/SuperMario5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marioImages/SuperMario6.png" beforeDir="false" afterPath="$PROJECT_DIR$/marioImages/SuperMario6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marioImages/SuperMario7.png" beforeDir="false" afterPath="$PROJECT_DIR$/marioImages/SuperMario7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marioImages/SuperMario8.png" beforeDir="false" afterPath="$PROJECT_DIR$/marioImages/SuperMario8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marioImages/SuperMario9.png" beforeDir="false" afterPath="$PROJECT_DIR$/marioImages/SuperMario9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marioImages/marioDead.png" beforeDir="false" afterPath="$PROJECT_DIR$/marioImages/marioDead.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marioImages/minmario0.png" beforeDir="false" afterPath="$PROJECT_DIR$/marioImages/minimario0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/settings.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,39 +51,38 @@
     <session id="1483233391">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.0" value="2" />
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="foo" value="6" />
-          <entry key="png" value="12" />
-          <entry key="py" value="5" />
-          <entry key="txt" value="1" />
+          <entry key="png" value="11" />
+          <entry key="py" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Image" value="12" />
-          <entry key="PLAIN_TEXT" value="7" />
-          <entry key="Python" value="5" />
+          <entry key="Image" value="11" />
+          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="Python" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="8" />
+          <entry key="dummy" value="5" />
           <entry key="foo" value="17" />
-          <entry key="py" value="676" />
-          <entry key="txt" value="59" />
+          <entry key="py" value="474" />
+          <entry key="txt" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="84" />
-          <entry key="Python" value="676" />
+          <entry key="PLAIN_TEXT" value="30" />
+          <entry key="Python" value="474" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -52,50 +90,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mario.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="65" selection-start-line="6" selection-start-column="65" selection-end-line="6" selection-end-column="65" />
+              <caret line="6" column="69" selection-start-line="6" selection-start-column="69" selection-end-line="6" selection-end-column="69" />
               <folding>
-                <marker date="1541267059594" expanded="true" signature="27:32" ph="..." />
-                <marker date="1541267059594" expanded="true" signature="72:417" ph="..." />
+                <marker date="1541105216182" expanded="true" signature="27:32" ph="..." />
+                <marker date="1541105216182" expanded="true" signature="72:421" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/map/Gridlines.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/map.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/map/MarioLevel.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="67">
-              <caret line="33" column="46" lean-forward="true" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imagerect.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -104,7 +107,7 @@
         <entry file="file://$PROJECT_DIR$/game_functions.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -121,14 +124,6 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>Maze</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>Map</replace>
-    </replaceStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -137,13 +132,9 @@
       <list>
         <option value="$PROJECT_DIR$/foo" />
         <option value="$PROJECT_DIR$/Mario.py" />
-        <option value="$PROJECT_DIR$/settings.py" />
-        <option value="$PROJECT_DIR$/levelDesign.py" />
-        <option value="$PROJECT_DIR$/imagerect.py" />
         <option value="$PROJECT_DIR$/game_functions.py" />
-        <option value="$PROJECT_DIR$/map.py" />
         <option value="$PROJECT_DIR$/SuperMarioBro.py" />
-        <option value="$PROJECT_DIR$/map/MarioLevel.txt" />
+        <option value="$PROJECT_DIR$/settings.py" />
         <option value="$PROJECT_DIR$/mario.py" />
       </list>
     </option>
@@ -158,7 +149,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -171,10 +161,16 @@
               <item name="SuperMarioClone" type="462c0819:PsiDirectoryNode" />
               <item name="map" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="SuperMarioClone" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SuperMarioClone" type="462c0819:PsiDirectoryNode" />
+              <item name="marioImages" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -183,7 +179,6 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\steve\PycharmProjects\SuperMarioClone\map" />
-      <recent name="C:\Users\steve\PycharmProjects\SuperMarioClone" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -281,21 +276,21 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <frame x="762" y="0" width="781" height="870" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34699273" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.5080645" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.33242875" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32348993" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32885906" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33242875" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32885906" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.33154362" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32885906" />
       <window_info anchor="bottom" id="Python Console" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -351,6 +346,16 @@
     <entry file="file://$PROJECT_DIR$/sceneryImages/foo">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/SuperMarioBro.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -361,10 +366,22 @@
     <entry file="file://$PROJECT_DIR$/marioImages/FireMario2.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/game_functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/marioImages/FireMario1.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/marioImages/Fire Mario.png" />
+    <entry file="file://$PROJECT_DIR$/marioImages/Fire Mario.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/marioImages/SuperMario0.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -380,61 +397,14 @@
     <entry file="file://$PROJECT_DIR$/marioImages/minimario0.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/game_functions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/map/Gridlines.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/map.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SuperMarioBro.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imagerect.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mario.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="65" selection-start-line="6" selection-start-column="65" selection-end-line="6" selection-end-column="65" />
+          <caret line="6" column="69" selection-start-line="6" selection-start-column="69" selection-end-line="6" selection-end-column="69" />
           <folding>
-            <marker date="1541267059594" expanded="true" signature="27:32" ph="..." />
-            <marker date="1541267059594" expanded="true" signature="72:417" ph="..." />
+            <marker date="1541105216182" expanded="true" signature="27:32" ph="..." />
+            <marker date="1541105216182" expanded="true" signature="72:421" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/map/MarioLevel.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="33" column="46" lean-forward="true" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
         </state>
       </provider>
     </entry>
