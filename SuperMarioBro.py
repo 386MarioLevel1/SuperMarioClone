@@ -16,7 +16,7 @@ def run_game():
     map = Map(screen, "map/MarioLevel.txt", "OWfloor")
 
 
-    screen = pygame.display.set_mode((1200, 800))
+    # screen = pygame.display.set_mode((1200, 800))
     pygame.display.set_caption("Super Mario Bros.")
 
     # Start the main loop for the game
