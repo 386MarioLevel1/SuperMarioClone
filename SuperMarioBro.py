@@ -22,6 +22,7 @@ def run_game():
     # Start the main loop for the game
     while True:
         gf.check_events(ai_settings, screen, mario, map)
+        mario.update()
         map.update()
         gf.update_screen(ai_settings, screen, mario, map)
 

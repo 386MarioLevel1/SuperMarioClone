@@ -4,11 +4,11 @@ import pygame
 
 def checkKeydownEvents(event, mario, map):
     if event.key == pygame.K_RIGHT:
-        # mario.movingRight = True
+        mario.movingRight = True
         map.movingRight = True
 
     elif event.key == pygame.K_LEFT:
-        # mario.movingLeft = True
+        mario.movingLeft = True
         map.movingLeft = True
 
 def checkKeyupEvents(event, mario, map):
