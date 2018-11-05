@@ -12,19 +12,20 @@ def run_game():
     ai_settings = Settings()
     screen = pygame.display.set_mode(
         (ai_settings.screen_width, ai_settings.screen_height))
-    mario = Mario(screen, ai_settings)
-    map = Map(screen, "map/MarioLevel.txt", "OWfloor")
-
-
-    # screen = pygame.display.set_mode((1200, 800))
     pygame.display.set_caption("Super Mario Bros.")
+
+    floor = Group()
+
+    mario = Mario(screen, ai_settings)
+    map = Map(screen, "map/MarioLevel.txt", "OWfloor", floor)
 
     # Start the main loop for the game
     while True:
         gf.check_events(ai_settings, screen, mario, map)
         mario.update()
-        map.update()
-        gf.update_screen(ai_settings, screen, mario, map)
+        map.update(floor)
+        floor.update()
+        gf.update_screen(ai_settings, screen, mario, map, floor)
 
 
 run_game()

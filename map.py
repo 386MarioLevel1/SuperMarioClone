@@ -5,23 +5,24 @@ class Map():
     RED = (255, 0, 0)
     BLACK = (0, 0, 0)
     BRICK_SIZE = 32
-    def __init__(self, screen, mazefile, brickfile):#, portalfile, shieldfile, pointfile):
+    def __init__(self, screen, mazefile, brickfile, floor):#, portalfile, shieldfile, pointfile):
         self.screen = screen
         self.filename = mazefile
+        self.brickfile = brickfile
         with open(self.filename, "r") as f:
             self.rows = f.readlines()
 
         self.bricks = []
         sz = Map.BRICK_SIZE
 
-        self.brick = ImageRect(screen, brickfile, sz, sz)
+        self.brick = ImageRect(screen, brickfile, sz, sz, 0, 0)
         #                      screen, square, height, width
 
         self.rect = self.brick.get_rect()
 
         self.deltax = self.deltay = Map.BRICK_SIZE
 
-        self.build()
+        self.build(floor)
 
         self.x_direction = .25
         # self.y_direction = 2
@@ -29,16 +30,19 @@ class Map():
         self.movingRight = False
         self.movingLeft = False
 
-    def update(self):
+    def update(self, floor):
         #random comment
-        for rect in self.bricks:
+        for rect in floor.sprites():
             if self.movingRight:
-                rect.x -= self.x_direction
-
+                rect.movingRight = True
+            else:
+                rect.movingRight = False
             if self.movingLeft:
-                rect.x += self.x_direction
+                rect.movingLeft = True
+            else:
+                rect.movingLeft = False
 
-    def build(self):
+    def build(self, floor):
         r = self.brick.rect
         w, h = r.width, r.height
         dx, dy = self.deltax, self.deltay
@@ -48,10 +52,11 @@ class Map():
             for ncol in range(len(row)):
                 col = row[ncol]
                 if col == "X":
-                    self.bricks.append(pygame.Rect(ncol * dx, nrow * dy, w, h))
+                    flooring = ImageRect(self.screen, self.brickfile, Map.BRICK_SIZE, Map.BRICK_SIZE, ncol * dx, nrow * dy)
+                    floor.add(flooring)
 
-    def blitme(self):
-        for rect in self.bricks:
+    def blitme(self, floor):
+        for rect in floor:
             self.screen.blit(self.brick.image, rect)
 
 

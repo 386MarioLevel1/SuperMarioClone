@@ -1,7 +1,9 @@
 import pygame
+from pygame.sprite import Sprite
 
-class ImageRect:
-    def __init__(self, screen, imagename, height, width):
+class ImageRect(Sprite):
+    def __init__(self, screen, imagename, height, width, x, y):
+        super(ImageRect, self).__init__()
         self.screen = screen
         name = 'blockImages/' + imagename + '.png'
 
@@ -12,6 +14,22 @@ class ImageRect:
         self.rect.top -= self.rect.height
 
         self.image = img
+
+        self.rect.x = x
+        self.rect.y = y
+
+        self.centerx = float(self.rect.centerx)
+
+        self.movingRight = False
+        self.movingLeft = False
+
+    def update(self):
+        if self.movingRight:
+            self.centerx -= .25
+            self.rect.centerx = self.centerx
+        if self.movingLeft:
+            self.centerx += .25
+            self.rect.centerx = self.centerx
 
     def __str__(self):
         return 'imagerect(' + str(self.image) + str(self.rect) + ')'
