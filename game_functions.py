@@ -4,11 +4,11 @@ import pygame
 
 def checkKeydownEvents(event, mario, map):
     if event.key == pygame.K_RIGHT:
-        # mario.movingRight = True
+        mario.movingRight = True
         map.movingRight = True
 
     elif event.key == pygame.K_LEFT:
-        # mario.movingLeft = True
+        mario.movingLeft = True
         map.movingLeft = True
 
 def checkKeyupEvents(event, mario, map):
@@ -28,9 +28,6 @@ def check_events(ai_settings, screen, mario, map):
             checkKeydownEvents(event, mario, map)
         elif event.type == pygame.KEYUP:
             checkKeyupEvents(event, mario, map)
-
-
-
 
 def update_screen(ai_settings, screen, mario, map):
     # Redraw the screen during each pass through the loop.
