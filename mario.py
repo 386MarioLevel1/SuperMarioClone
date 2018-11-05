@@ -12,6 +12,22 @@ class Mario:
         self.rect.centery = 384
         # self.rect.bottom = self.screen_rect.bottom
 
+        self.centerx = float(self.rect.centerx)
+        self.centery = float(self.rect.centery)
+
+        self.movingRight = False
+        self.movingLeft = False
+        self.jumping = False
+
+    def update(self):
+        if self.movingRight:
+            self.centerx += 1
+            self.rect.centerx = self.centerx
+        if self.movingLeft:
+            self.centerx -= 1
+            self.rect.centerx = self.centerx
+
+
 
     def blitme(self):
         self.screen.blit(self.mario_image, self.rect)
