@@ -29,9 +29,6 @@ def check_events(ai_settings, screen, mario, map):
         elif event.type == pygame.KEYUP:
             checkKeyupEvents(event, mario, map)
 
-
-
-
 def update_screen(ai_settings, screen, mario, map):
     # Redraw the screen during each pass through the loop.
     screen.fill(ai_settings.bg_color)
