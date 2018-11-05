@@ -21,10 +21,10 @@ class Mario:
 
     def update(self):
         if self.movingRight:
-            self.centerx += 1
+            self.centerx += .25
             self.rect.centerx = self.centerx
         if self.movingLeft:
-            self.centerx -= 1
+            self.centerx -= .25
             self.rect.centerx = self.centerx
 
 
