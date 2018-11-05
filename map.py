@@ -23,11 +23,7 @@ class Map():
 
         self.build()
 
-        for rect in self.bricks:
-            self.x = float(rect.x)
-            self.y = float(rect.y)
-
-        self.x_direction = 2
+        self.x_direction = .25
         # self.y_direction = 2
 
         self.movingRight = False
@@ -37,12 +33,10 @@ class Map():
         #random comment
         for rect in self.bricks:
             if self.movingRight:
-                self.x -= self.x_direction
-                rect.x = self.x
+                rect.x -= self.x_direction
 
             if self.movingLeft:
-                self.x += self.x_direction
-                rect.x = self.x
+                rect.x += self.x_direction
 
     def build(self):
         r = self.brick.rect
