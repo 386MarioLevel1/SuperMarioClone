@@ -35,13 +35,14 @@ class Map():
 
     def update(self):
         #random comment
-        if self.movingRight:
-            self.x -= self.x_direction
-            rect.x = self.x
+        for rect in self.bricks:
+            if self.movingRight:
+                self.x -= self.x_direction
+                rect.x = self.x
 
-        if self.movingLeft:
-            self.x += self.x_direction
-            rect.x = self.x
+            if self.movingLeft:
+                self.x += self.x_direction
+                rect.x = self.x
 
     def build(self):
         r = self.brick.rect
