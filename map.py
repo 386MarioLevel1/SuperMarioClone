@@ -24,7 +24,7 @@ class Map():
 
         self.build(floor)
 
-        self.x_direction = .25
+        # self.x_direction = .25
         # self.y_direction = 2
 
         self.movingRight = False
