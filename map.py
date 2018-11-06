@@ -24,7 +24,7 @@ class Map():
 
         self.build(floor)
 
-        self.x_direction = .25
+        # self.x_direction = .25
         # self.y_direction = 2
 
         self.movingRight = False
@@ -52,6 +52,8 @@ class Map():
             for ncol in range(len(row)):
                 col = row[ncol]
                 if col == "X":
+
+                    #turning every OWfloor into a flooring sprites that are in the floor group?
                     flooring = ImageRect(self.screen, self.brickfile, Map.BRICK_SIZE, Map.BRICK_SIZE, ncol * dx, nrow * dy)
                     floor.add(flooring)
 

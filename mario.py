@@ -19,7 +19,24 @@ class Mario:
         self.movingLeft = False
         self.jumping = False
 
-    def update(self):
+    def update(self, floor):
+        self.centery += 1
+        self.rect.centery = self.centery
+
+        #                 for rect2 in maze.bricks:
+        #                     if rect.colliderect(rect2):
+        #                         # self.y_hit = self.y
+        #                         # self.hit_right = True
+        #                         self.x = self.x - self.x_direction
+        #                         rect.x = self.x
+        #                         return
+
+        for rect in floor:
+            if self.rect.colliderect(rect):
+                self.centery -= 1
+                self.rect.centery = self.centery
+                return
+
         if self.movingRight:
             self.centerx += .25
             self.rect.centerx = self.centerx
