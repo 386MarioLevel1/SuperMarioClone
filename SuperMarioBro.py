@@ -15,17 +15,19 @@ def run_game():
     pygame.display.set_caption("Super Mario Bros.")
 
     floor = Group()
+    stairs = Group()
 
     mario = Mario(screen, ai_settings)
-    map = Map(screen, "map/MarioLevel.txt", "OWfloor", floor)
+    map = Map(screen, "map/MarioLevel.txt", "OWfloor", floor, "OWstair", stairs)
 
     # Start the main loop for the game
     while True:
         gf.check_events(ai_settings, screen, mario, map)
-        mario.update(floor)
-        map.update(floor)
+        mario.update(floor, stairs)
+        map.update(floor, stairs)
         floor.update()
-        gf.update_screen(ai_settings, screen, mario, map, floor)
+        stairs.update()
+        gf.update_screen(ai_settings, screen, mario, map, floor, stairs)
 
 
 run_game()

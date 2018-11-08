@@ -19,7 +19,7 @@ class Mario:
         self.movingLeft = False
         self.jumping = False
 
-    def update(self, floor):
+    def update(self, floor, stairs):
         self.centery += 1
         self.rect.centery = self.centery
 
@@ -31,8 +31,14 @@ class Mario:
         #                         rect.x = self.x
         #                         return
 
-        for rect in floor:
-            if self.rect.colliderect(rect):
+        for tile in floor:
+            if self.rect.colliderect(tile):
+                self.centery -= 1
+                self.rect.centery = self.centery
+                return
+
+        for tile in stairs:
+            if self.rect.colliderect(tile):
                 self.centery -= 1
                 self.rect.centery = self.centery
                 return
