@@ -25,46 +25,28 @@ class Mario(Sprite):
         self.jump = False
         self.touchingGround = False
 
-    def checkStairTouch(self, stairs):
+    def checkStairTouch(self, stairs): #refactor this
         for tile in stairs:
             if self.rect.colliderect(tile):
                 self.touchingGround = True
-                # self.centery -= 1
-                # self.rect.centery = self.centery
                 self.rect.bottom = tile.rect.bottom
                 return True
             else:
                 return False
 
-    def checkFloorTouch(self, floor):
-        for tile in floor.sprites():
-            if self.rect.colliderect(tile.rect):
-                self.centery -= 1
-                self.rect.centery = self.centery
-                #self.rect.bottom = tile.rect.bottom
-                #print("Reached")
-                return True
-            else:
-                # print("Reached")
-                return False
-
-    def checkFloorGreater(self, floor):
-        # for tile in floor.sprites():
-        #     if self.rect.bottom > tile.rect.bottom: #and self.checkFloorTouch(floor):
-        #         self.rect.bottom = tile.rect.bottom
-        #         print("Reached")
+    def checkFloorGreater(self, floor): #used to be part of checkFloorTouch
         if pygame.sprite.spritecollideany(self, floor):
             for tile in floor.sprites():
                 self.rect.bottom = tile.rect.top
 
-    def checkFloorLess(self, floor):
+    def checkFloorLess(self, floor): #used to be part of checkFloorTouch
         for tile in floor.sprites():
             if self.rect.bottom < tile.rect.top:
                 return True
             else:
                 return False
 
-    def checkFloorEqual(self, floor):
+    def checkFloorEqual(self, floor): #used to be part of checkFloorTouch
         for tile in floor.sprites():
             if self.rect.bottom == tile.rect.top:
                 return True
