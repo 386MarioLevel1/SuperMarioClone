@@ -18,17 +18,30 @@ class ImageRect(Sprite):
         self.rect.x = x
         self.rect.y = y
 
+        self.xlr8 = 0.0
+
         self.centerx = float(self.rect.centerx)
 
         self.movingRight = False
         self.movingLeft = False
 
+    def accel(self):
+        if self.movingRight and self.xlr8 > -.5:
+            self.xlr8 -= .0015
+        elif not self.movingRight and self.xlr8 < 0:
+            self.xlr8 += .0015
+        if self.movingLeft and self.xlr8 < .5:
+            self.xlr8 += .0015
+        elif not self.movingLeft and self.xlr8 > 0:
+            self.xlr8 -= .0015
+
     def update(self):
+        self.accel()
         if self.movingRight:
-            self.centerx -= 1
+            self.centerx += self.xlr8
             self.rect.centerx = self.centerx
-        if self.movingLeft:
-            self.centerx += 1
+        elif self.movingLeft:
+            self.centerx += self.xlr8
             self.rect.centerx = self.centerx
 
     def __str__(self):
