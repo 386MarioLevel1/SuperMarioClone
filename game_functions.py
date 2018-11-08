@@ -6,10 +6,11 @@ def checkKeydownEvents(event, mario, map):
     if event.key == pygame.K_RIGHT:
         # mario.movingRight = True
         map.movingRight = True
-
     elif event.key == pygame.K_LEFT:
         # mario.movingLeft = True
         map.movingLeft = True
+    elif event.key == pygame.K_SPACE:
+        mario.jump = True
 
 def checkKeyupEvents(event, mario, map):
     if event.key == pygame.K_RIGHT:
@@ -18,6 +19,8 @@ def checkKeyupEvents(event, mario, map):
     elif event.key == pygame.K_LEFT:
         # mario.movingLeft = False
         map.movingLeft = False
+    elif event.key == pygame.K_SPACE:
+        mario.jump = False
 
 def check_events(ai_settings, screen, mario, map):
     """Respond to keypresses and mouse events."""

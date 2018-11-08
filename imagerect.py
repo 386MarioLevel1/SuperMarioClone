@@ -25,10 +25,10 @@ class ImageRect(Sprite):
 
     def update(self):
         if self.movingRight:
-            self.centerx -= .25
+            self.centerx -= .5
             self.rect.centerx = self.centerx
         if self.movingLeft:
-            self.centerx += .25
+            self.centerx += .5
             self.rect.centerx = self.centerx
 
     def __str__(self):
