@@ -17,9 +17,10 @@ def run_game():
     floor = Group()
     floor2 = Group()
     stairs = Group()
+    pitfalls = Group()
 
     mario = Mario(screen, ai_settings)
-    map = Map(screen, "map/MarioLevel.txt", "OWfloor", floor, "OWstair", stairs, floor2)
+    map = Map(screen, "map/MarioLevel.txt", "OWfloor", floor, "OWstair", stairs, floor2, )
 
     # Start the main loop for the game
     while True:
