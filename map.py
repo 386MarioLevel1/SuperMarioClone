@@ -5,11 +5,13 @@ class Map():
     RED = (255, 0, 0)
     BLACK = (0, 0, 0)
     BRICK_SIZE = 32
-    def __init__(self, screen, mazefile, brickfile, floor, stairfile, stairs, floor2):#, portalfile, shieldfile, pointfile):
+    def __init__(self, screen, mazefile, brickfile, floor, stairfile, stairs,
+                 floor2, pitfall, pitfalls):#, portalfile, shieldfile, pointfile):
         self.screen = screen
         self.filename = mazefile
         self.brickfile = brickfile
         self.stairfile = stairfile
+        self.pitfall = pitfall
         with open(self.filename, "r") as f:
             self.rows = f.readlines()
 
@@ -21,11 +23,13 @@ class Map():
 
         self.stair = ImageRect(screen, stairfile, sz, sz, 0 ,0)
 
+        self.hole = ImageRect(screen, pitfall, sz, sz, 0, 0)
+
         self.rect = self.brick.get_rect()
 
         self.deltax = self.deltay = Map.BRICK_SIZE
 
-        self.build(floor, stairs, floor2)
+        self.build(floor, stairs, floor2, pitfalls)
 
         # self.x_direction = .25
         # self.y_direction = 2
@@ -33,7 +37,7 @@ class Map():
         self.movingRight = False
         self.movingLeft = False
 
-    def update(self, floor, stairs, floor2):
+    def update(self, floor, stairs, floor2, pitfalls):
         #random comment
         for rect in floor.sprites():
             if self.movingRight:
@@ -55,6 +59,16 @@ class Map():
             else:
                 rect.movingLeft = False
 
+        for rect in pitfalls.sprites():
+            if self.movingRight:
+                rect.movingRight = True
+            else:
+                rect.movingRight = False
+            if self.movingLeft:
+                rect.movingLeft = True
+            else:
+                rect.movingLeft = False
+
         for rect in floor2.sprites():
             if self.movingRight:
                 rect.movingRight = True
@@ -66,7 +80,7 @@ class Map():
                 rect.movingLeft = False
 
 
-    def build(self, floor, stairs, floor2):
+    def build(self, floor, stairs, floor2, pitfalls):
         r = self.brick.rect
         w, h = r.width, r.height
         dx, dy = self.deltax, self.deltay
@@ -88,7 +102,12 @@ class Map():
                     flooring2 = ImageRect(self.screen, self.brickfile, Map.BRICK_SIZE, Map.BRICK_SIZE, ncol * dx, nrow * dy)
                     floor2.add(flooring2)
 
-    def blitme(self, floor, stairs, floor2):
+                elif col == ",":
+                    falling = ImageRect(self.screen, self.pitfall, Map.BRICK_SIZE, Map.BRICK_SIZE,
+                                         ncol * dx, nrow * dy)
+                    pitfalls.add(falling)
+
+    def blitme(self, floor, stairs, floor2, pitfalls):
         for rect in floor:
             self.screen.blit(self.brick.image, rect)
 
@@ -98,4 +117,5 @@ class Map():
         for rect in floor2:
             self.screen.blit(self.brick.image, rect)
 
-
+        for rect in pitfalls:
+            self.screen.blit(self.hole.image, rect)

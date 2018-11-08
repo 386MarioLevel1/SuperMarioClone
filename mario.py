@@ -80,7 +80,7 @@ class Mario(Sprite):
         #check comment above
         self.checkFloorGreater(floor)
 
-    def update(self, floor, stairs):
+    def update(self, floor, stairs, pitfalls):
         # self.centery += 1
         # self.rect.centery = self.centery
         self.gravity(floor)
