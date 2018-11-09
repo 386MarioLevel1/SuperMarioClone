@@ -1,5 +1,6 @@
 import pygame
 from pygame.sprite import Sprite
+from timer import Timer
 
 class Mario(Sprite):
     def __init__(self, screen, ai_settings):
@@ -14,6 +15,17 @@ class Mario(Sprite):
         self.rect.centery = 384
         # self.rect.bottom = self.screen_rect.bottom
 
+        self.rightFrames = ["marioImages/minimario8.png", "marioImages/minimario7.png", "marioImages/minimario6.png"]#876
+        self.leftFrames = ["marioImages/minimario1.png", "marioImages/minimario2.png", "marioImages/minimario3.png"]#123
+        self.stillRight = ["marioImages/minimario5.png"]
+        self.stillLeft = ["marioImages/minimario4.png"]
+
+
+        self.rightTime = Timer(self.rightFrames)
+        self.leftTime = Timer(self.leftFrames)
+        self.stillTime = Timer(self.stillRight)
+        self.stillTime2 = Timer(self.stillLeft)
+
         self.grav = 0.0
         self.autoGrav = 0.0
 
@@ -22,6 +34,8 @@ class Mario(Sprite):
 
         self.movingRight = False
         self.movingLeft = False
+        self.wasRight = False
+        self.wasLeft = False
         self.jump = False
         self.touchingGround = False
         self.inPitfall = False
@@ -133,4 +147,23 @@ class Mario(Sprite):
 
 
     def blitme(self):
-        self.screen.blit(self.mario_image, self.rect)
+        # self.screen.blit(self.mario_image, self.rect)
+        if self.movingRight:
+            self.image2 = pygame.image.load(self.rightTime.imagerect())
+            self.wasLeft = False
+            self.wasRight = True
+        elif self.movingLeft:
+            self.image2 = pygame.image.load(self.leftTime.imagerect())
+            self.wasRight = False
+            self.wasLeft = True
+        else:
+            if self.wasLeft:
+                self.image2 = pygame.image.load(self.stillTime2.imagerect())
+            else:
+                self.image2 = pygame.image.load(self.stillTime.imagerect())
+
+
+        self.image2 = pygame.transform.scale(self.image2, (32, 32))
+        self.newRect = self.image2.get_rect()
+        self.newRect.center = self.rect.center
+        self.screen.blit(self.image2, self.newRect)
