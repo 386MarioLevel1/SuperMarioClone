@@ -1,6 +1,7 @@
 import pygame
 from pygame.sprite import Group
 from mario import Mario
+from enemy import Goomba
 from map import Map
 from settings import Settings
 

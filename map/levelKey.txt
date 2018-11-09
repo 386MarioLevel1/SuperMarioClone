@@ -20,6 +20,7 @@ u <- portion of castle
 
 Characters to create mario and enemy
 M <- marioImages/minimario0.png
+G <- enemyImages/Goomba0
 
 Characters to create the flag pole
 O <- top of flag pole
