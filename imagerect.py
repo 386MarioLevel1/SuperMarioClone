@@ -28,6 +28,7 @@ class ImageRect(Sprite):
     def accel(self):
         if self.movingRight and self.xlr8 > -.5:
             self.xlr8 -= .0015
+            #.0015
         elif not self.movingRight and self.xlr8 < 0:
             self.xlr8 += .0015
         if self.movingLeft and self.xlr8 < .5:

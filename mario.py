@@ -80,9 +80,21 @@ class Mario(Sprite):
         #check comment above
         self.checkFloorGreater(floor)
 
-    def update(self, floor, stairs, pitfalls):
+    def update(self, floor, stairs, smallPitfalls, largePitfalls):
         # self.centery += 1
         # self.rect.centery = self.centery
+        for tile in smallPitfalls.sprites():
+            for i in range(tile.rect.left, tile.rect.right):
+                    if self.rect.left == i and self.rect.bottom == tile.rect.top:
+                        self.centery = 468
+                        self.rect.centery = self.centery
+
+        for hole in largePitfalls.sprites():
+            for i in range(hole.rect.left, hole.rect.right+32):
+                if self.rect.left == i and self.rect.bottom == hole.rect.top:
+                    self.centery = 468
+                    self.rect.centery = self.centery
+
         self.gravity(floor)
 
         #if this code is disable, we need to hold jump for mario to fall back down

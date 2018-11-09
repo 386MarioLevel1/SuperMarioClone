@@ -33,13 +33,13 @@ def check_events(ai_settings, screen, mario, map):
             checkKeyupEvents(event, mario, map)
 
 def update_screen(ai_settings, screen, mario, map, floor, stairs,
-                  floor2, pitfall, pitfalls):
+                  floor2, smallPitfalls, largePitfalls):
     # Redraw the screen during each pass through the loop.
     screen.fill(ai_settings.bg_color)
 
     mario.blitme()
 
-    map.blitme(floor, stairs, floor2, pitfalls)
+    map.blitme(floor, stairs, floor2, smallPitfalls, largePitfalls)
 
     pygame.display.flip()
 
