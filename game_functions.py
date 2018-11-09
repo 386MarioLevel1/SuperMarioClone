@@ -37,9 +37,9 @@ def update_screen(ai_settings, screen, mario, map, floor, stairs,
     # Redraw the screen during each pass through the loop.
     screen.fill(ai_settings.bg_color)
 
-    mario.blitme()
-
     map.blitme(floor, stairs, floor2, smallPitfalls, largePitfalls)
+
+    mario.blitme()
 
     pygame.display.flip()
 

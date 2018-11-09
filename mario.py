@@ -24,6 +24,7 @@ class Mario(Sprite):
         self.movingLeft = False
         self.jump = False
         self.touchingGround = False
+        self.inPitfall = False
 
     def checkStairTouch(self, stairs): #refactor this
         for tile in stairs:
@@ -80,22 +81,33 @@ class Mario(Sprite):
         #check comment above
         self.checkFloorGreater(floor)
 
+    def fall(self):
+        if self.inPitfall:
+            self.centery += .2
+            self.rect.centery = self.centery
+
     def update(self, floor, stairs, smallPitfalls, largePitfalls):
         # self.centery += 1
         # self.rect.centery = self.centery
         for tile in smallPitfalls.sprites():
             for i in range(tile.rect.left, tile.rect.right):
                     if self.rect.left == i and self.rect.bottom == tile.rect.top:
-                        self.centery = 468
-                        self.rect.centery = self.centery
+                        # self.centery = 468
+                        # self.rect.centery = self.centery
+                        self.touchingGround = False
+                        self.inPitfall = True
+
 
         for hole in largePitfalls.sprites():
             for i in range(hole.rect.left, hole.rect.right+32):
                 if self.rect.left == i and self.rect.bottom == hole.rect.top:
-                    self.centery = 468
-                    self.rect.centery = self.centery
+                    # self.centery = 468
+                    # self.rect.centery = self.centery
+                    self.touchingGround = False
+                    self.inPitfall = True
 
         self.gravity(floor)
+        self.fall()
 
         #if this code is disable, we need to hold jump for mario to fall back down
         #otherwise we have to keep  pressing space
