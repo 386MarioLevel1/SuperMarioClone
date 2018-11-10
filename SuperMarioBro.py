@@ -1,7 +1,7 @@
 import pygame
 from pygame.sprite import Group
 from mario import Mario
-from enemy import Goomba
+from goomba import Goomba
 from map import Map
 from settings import Settings
 
@@ -21,10 +21,12 @@ def run_game():
     # pitfalls = Group()
     smallPitfalls = Group()
     largePitfalls = Group()
+    goombas = Group()
 
     mario = Mario(screen, ai_settings)
-    map = Map(screen, "map/MarioLevel.txt", "OWfloor", floor, "OWstair", stairs, floor2,
-              "pitfallS", smallPitfalls, "pitfallX", largePitfalls)
+    # goomba = Goomba(screen, ai_settings)
+    map = Map(screen, ai_settings, "map/MarioLevel.txt", "OWfloor", floor, "OWstair", stairs, floor2,
+              "pitfallS", smallPitfalls, "pitfallX", largePitfalls, goombas)
 
     # Start the main loop for the game
     while True:
@@ -37,7 +39,7 @@ def run_game():
         smallPitfalls.update()
         largePitfalls.update()
         gf.update_screen(ai_settings, screen, mario, map, floor, stairs, floor2,
-                         smallPitfalls, largePitfalls)
+                         smallPitfalls, largePitfalls, goombas)
 
 
 run_game()

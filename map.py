@@ -1,5 +1,6 @@
 import pygame
 from imagerect import ImageRect
+from goomba import Goomba
 
 class Map():
     RED = (255, 0, 0)
@@ -7,10 +8,11 @@ class Map():
     BRICK_SIZE = 32
     PS = 64
     PX = 86
-    def __init__(self, screen, mazefile, brickfile, floor, stairfile, stairs,
-                 floor2, pitfallS, smallPitfalls, pitfallX, largePitfalls):
+    def __init__(self, screen, ai_settings, mazefile, brickfile, floor, stairfile, stairs,
+                 floor2, pitfallS, smallPitfalls, pitfallX, largePitfalls, goombas):
         self.screen = screen
         self.filename = mazefile
+        self.ai_settings = ai_settings
         self.brickfile = brickfile
         self.stairfile = stairfile
         self.pitfallS = pitfallS
@@ -42,7 +44,7 @@ class Map():
         self.largePitDeltaX = Map.PX
         self.largePitDeltaY = Map.BRICK_SIZE
 
-        self.build(floor, stairs, floor2, smallPitfalls, largePitfalls)
+        self.build(floor, stairs, floor2, smallPitfalls, largePitfalls, goombas)
 
         # self.x_direction = .25
         # self.y_direction = 2
@@ -103,7 +105,7 @@ class Map():
                 rect.movingLeft = False
 
 
-    def build(self, floor, stairs, floor2, smallPitfalls, largePitfalls):
+    def build(self, floor, stairs, floor2, smallPitfalls, largePitfalls, goombas):
         r = self.brick.rect
         w, h = r.width, r.height
         dx, dy = self.deltax, self.deltay
@@ -138,9 +140,12 @@ class Map():
                                          ncol * dx, nrow * dy)
                     largePitfalls.add(death)
 
+                elif col == "G":
+                    loomba = Goomba(self.screen, self.ai_settings, ncol * dx, nrow * dy)
+                    goombas.add(loomba)
 
 
-    def blitme(self, floor, stairs, floor2, smallPitfalls, largePitfalls):
+    def blitme(self, floor, stairs, floor2, smallPitfalls, largePitfalls, goombas):
         for rect in floor:
             self.screen.blit(self.brick.image, rect)
 
@@ -155,3 +160,6 @@ class Map():
 
         for rect in largePitfalls:
             self.screen.blit(self.holeX.image, rect)
+
+        for rect in goombas:
+            rect.blitme()
