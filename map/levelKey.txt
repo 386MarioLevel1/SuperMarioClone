@@ -3,19 +3,22 @@ p, P <- blockImages/OWpipe.png
 s <- blockImages/OWstair.png
 
 Characters to create the scenery
-c <- cloud
+c <- sceneryImages/OWcloud.png
 _ <- sceneryImages/OWmtTop.png
 / <- sceneryImages/OWmtSlantLeft.png
 \ <- sceneryImages/OWmtSlantRight.png
 l <- sceneryImages/OWmtDotLEft.png
 m <- sceneryImages/OWmtFill.png
 r <- sceneryImages/OWmtDotRight.png
-B <- bushes
+B <- sceneryImages/OWbush.png
 
 Characters that create bricks, floor and ? boxes
 X <- blockImages/OWfloor.png
 b <- blockImages/OWbrick.png
-u <- portion of castle
+u <- blockImages/OWcastleTop.png
+C <- blockImages/OWbrick.png
+D <- blockImages/OWcastleDoorTop.png
+d <- blockImages/OWcastleDoorPart.png
 ? <- blockImages/OWblock1.png
 
 Characters to create mario and enemy
@@ -23,5 +26,5 @@ M <- marioImages/minimario0.png
 G <- enemyImages/Goomba0
 
 Characters to create the flag pole
-O <- top of flag pole
-| <- part of flag pole
+O <- blockImages/OWflagPoleTop.png
+| <- blockImages/OWflagPolePart.png
