@@ -16,6 +16,7 @@ Characters that create bricks, floor and ? boxes
 X <- blockImages/OWfloor.png
 b <- blockImages/OWbrick.png
 u <- blockImages/OWcastleTop.png
+U <- blockImages/OWcastleTop2.png
 C <- blockImages/OWbrick.png
 D <- blockImages/OWcastleDoorTop.png
 d <- blockImages/OWcastleDoorPart.png

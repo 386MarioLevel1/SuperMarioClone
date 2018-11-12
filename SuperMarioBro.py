@@ -33,7 +33,7 @@ def run_game():
     mario = Mario(screen, ai_settings)
     # goomba = Goomba(screen, ai_settings)
     map = Map(screen, ai_settings, "map/MarioLevel.txt", "OWfloor", floor, "OWstair", stairs, floor2,
-              "pitfallS", smallPitfalls, "pitfallX", largePitfalls, goombas, "OWcloud", clouds, "OWbush", bushes, "OWblock1", mysteryBoxes, "OWbrick", bricks, "OWflagPoleTop", "OWflagPolePart", flag, "OWcastleTop", "OWcastleDoorTop", "OWcastleDoorPart", castle, mountains)
+              "pitfallS", smallPitfalls, "pitfallX", largePitfalls, goombas, "OWcloud", clouds, "OWbush", bushes, "OWblock1", mysteryBoxes, "OWbrick", bricks, "OWflagPoleTop", "OWflagPolePart", flag, "OWcastleTop", "OWcastleTop2", "OWcastleDoorTop", "OWcastleDoorPart", castle, mountains)
 
     # Start the main loop for the game
     while True:

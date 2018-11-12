@@ -9,7 +9,8 @@ class Map():
     PS = 64
     PX = 86
     def __init__(self, screen, ai_settings, mazefile, brickfile, floor, stairfile, stairs,
-                 floor2, pitfallS, smallPitfalls, pitfallX, largePitfalls, goombas, cloudFile, clouds, bushFile, bushes, mysteryBoxFile, mysteryBoxes, boxFile, boxes, flagTopFile, flagPartFile, flag, castleTopFile, castleDoorTopFile, castleDoorPartFile, castle, mountains):
+                 floor2, pitfallS, smallPitfalls, pitfallX, largePitfalls, goombas, cloudFile, clouds, bushFile, bushes, mysteryBoxFile, mysteryBoxes, boxFile, boxes, flagTopFile,
+                 flagPartFile, flag, castleTopFile, castleTopFile2, castleDoorTopFile, castleDoorPartFile, castle, mountains):
         self.screen = screen
         self.filename = mazefile
         self.ai_settings = ai_settings
@@ -22,6 +23,7 @@ class Map():
         self.flagTopFile = flagTopFile
         self.flagPartFile = flagPartFile
         self.castleTopFile = castleTopFile
+        self.castleTopFile2 = castleTopFile2
         self.castleDoorTopFile = castleDoorTopFile
         self.castleDoorPartFile = castleDoorPartFile
         self.pitfallS = pitfallS
@@ -55,11 +57,11 @@ class Map():
 
         self.flagPart = ImageRect(screen, flagPartFile, sz, ps, 0, 0)
 
-        self.castleTop = ImageRect(screen, castleTopFile, ps, ps, 0, 0)
+        self.castleTop = ImageRect(screen, castleTopFile, sz, sz, 0, 0)
 
-        self.castleDoorTop = ImageRect(screen, castleDoorTopFile, ps, ps, 0, 0)
+        self.castleDoorTop = ImageRect(screen, castleDoorTopFile, sz, sz, 0, 0)
 
-        self.castleDoorPart = ImageRect(screen, castleDoorPartFile, ps, ps, 0, 0)
+        self.castleDoorPart = ImageRect(screen, castleDoorPartFile, sz, sz, 0, 0)
 
         self.rect = self.brick.get_rect()
 
@@ -265,19 +267,24 @@ class Map():
                     flag.add(flagPart)
 
                 elif col == "u":
-                    castlePart = ImageRect(self.screen, self.castleTopFile, Map.PS, Map.PS, ncol * dx, nrow * dy - int(Map.PS * 0.5))
+                    castlePart = ImageRect(self.screen, self.castleTopFile, Map.BRICK_SIZE, Map.BRICK_SIZE, ncol * dx, nrow * dy)
+                    castle.add(castlePart)
+
+                elif col == 'U':
+                    castlePart = ImageRect(self.screen, self.castleTopFile2, Map.BRICK_SIZE, Map.BRICK_SIZE, ncol * dx,
+                                           nrow * dy)
                     castle.add(castlePart)
 
                 elif col == "D":
-                    castlePart = ImageRect(self.screen, self.castleDoorTopFile, Map.PS, Map.PS, ncol * dx, nrow * dy - int(Map.PS * 0.5))
+                    castlePart = ImageRect(self.screen, self.castleDoorTopFile, Map.BRICK_SIZE, Map.BRICK_SIZE, ncol * dx, nrow * dy)
                     castle.add(castlePart)
 
                 elif col == "d":
-                    castlePart = ImageRect(self.screen, self.castleDoorPartFile, Map.PS, Map.PS, ncol * dx, nrow * dy - int(Map.PS * 0.5))
+                    castlePart = ImageRect(self.screen, self.castleDoorPartFile, Map.BRICK_SIZE, Map.BRICK_SIZE, ncol * dx, nrow * dy)
                     castle.add(castlePart)
 
                 elif col == "C":
-                    castlePart = ImageRect(self.screen, "OWbrick", Map.PS, Map.PS, ncol * dx, nrow * dy - int(Map.PS * 0.5))
+                    castlePart = ImageRect(self.screen, "OWbrick", Map.BRICK_SIZE, Map.BRICK_SIZE, ncol * dx, nrow * dy)
                     castle.add(castlePart)
 
                 elif col == "_":

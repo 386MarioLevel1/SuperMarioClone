@@ -10,8 +10,8 @@ class Goomba(Sprite):
         self.goombaImage = pygame.transform.scale(self.goombaImage, (32, 32))
         self.rect = self.goombaImage.get_rect()
         self.screen_rect = screen.get_rect()
-        self.rect.centerx = self.screen_rect.centerx + 32
-        self.rect.centery = 384
+        self.rect.centerx = x
+        self.rect.centery = y
 
         self.centerx = float(self.rect.centerx)
         self.centery = float(self.rect.centery)
