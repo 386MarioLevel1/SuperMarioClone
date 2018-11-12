@@ -2,10 +2,13 @@ import pygame
 from pygame.sprite import Sprite
 
 class ImageRect(Sprite):
-    def __init__(self, screen, imagename, height, width, x, y):
+    def __init__(self, screen, imagename, height, width, x, y, filename=None):
         super(ImageRect, self).__init__()
         self.screen = screen
-        name = 'blockImages/' + imagename + '.png'
+        if filename is None:
+            name = 'blockImages/' + imagename + '.png'
+        else:
+            name = filename + '/' + imagename + '.png'
 
         img = pygame.image.load(name)
         img = pygame.transform.scale(img, (height, width))
@@ -26,15 +29,15 @@ class ImageRect(Sprite):
         self.movingLeft = False
 
     def accel(self):
-        if self.movingRight and self.xlr8 > -.5:
-            self.xlr8 -= .0015
+        if self.movingRight and self.xlr8 > -5:
+            self.xlr8 -= 2
             #.0015
         elif not self.movingRight and self.xlr8 < 0:
-            self.xlr8 += .0015
-        if self.movingLeft and self.xlr8 < .5:
-            self.xlr8 += .0015
+            self.xlr8 += 2
+        if self.movingLeft and self.xlr8 < 5:
+            self.xlr8 += 2
         elif not self.movingLeft and self.xlr8 > 0:
-            self.xlr8 -= .0015
+            self.xlr8 -= 2
 
     def update(self):
         self.accel()
