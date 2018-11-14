@@ -4,6 +4,7 @@ from mario import Mario
 from goomba import Goomba
 from map import Map
 from settings import Settings
+from scoreboard import Scoreboard
 
 import game_functions as gf
 
@@ -14,6 +15,8 @@ def run_game():
     screen = pygame.display.set_mode(
         (ai_settings.screen_width, ai_settings.screen_height))
     pygame.display.set_caption("Super Mario Bros.")
+
+    sb = Scoreboard(ai_settings, screen)
 
     floor = Group()
     floor2 = Group()
@@ -54,8 +57,9 @@ def run_game():
         castle.update()
         mountains.update()
         pipes.update()
-        gf.update_screen(ai_settings, screen, mario, map, floor, stairs, floor2,
-                         smallPitfalls, largePitfalls, goombas, clouds, bushes, mysteryBoxes, bricks, flag, castle, mountains, pipes)
+        gf.update_screen(ai_settings, screen, sb, mario, map, floor, stairs, floor2,
+                         smallPitfalls, largePitfalls, goombas, clouds, bushes, mysteryBoxes,
+                         bricks, flag, castle, mountains, pipes)
 
 
 run_game()
