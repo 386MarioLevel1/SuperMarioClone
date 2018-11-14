@@ -10,7 +10,7 @@ class Map():
     PX = 86
     def __init__(self, screen, ai_settings, mazefile, brickfile, floor, stairfile, stairs,
                  floor2, pitfallS, smallPitfalls, pitfallX, largePitfalls, goombas, cloudFile, clouds, bushFile, bushes, mysteryBoxFile, mysteryBoxes, boxFile, boxes, flagTopFile,
-                 flagPartFile, flag, castleTopFile, castleTopFile2, castleDoorTopFile, castleDoorPartFile, castle, mountains, pipeFile, pipes):
+                 flagPartFile, flag, castleTopFile, castleTopFile2, castleDoorTopFile, castleDoorPartFile, castle, mountains, pipeTopFile, pipePartFile, pipes):
         self.screen = screen
         self.filename = mazefile
         self.ai_settings = ai_settings
@@ -26,7 +26,8 @@ class Map():
         self.castleTopFile2 = castleTopFile2
         self.castleDoorTopFile = castleDoorTopFile
         self.castleDoorPartFile = castleDoorPartFile
-        self.pipeFile = pipeFile
+        self.pipeTopFile = pipeTopFile
+        self.pipePartFile = pipePartFile
         self.pitfallS = pitfallS
         self.pitfallX = pitfallX
         with open(self.filename, "r") as f:
@@ -63,8 +64,6 @@ class Map():
         self.castleDoorTop = ImageRect(screen, castleDoorTopFile, sz, sz, 0, 0)
 
         self.castleDoorPart = ImageRect(screen, castleDoorPartFile, sz, sz, 0, 0)
-
-        self.pipe = ImageRect(screen, pipeFile, sz, sz, 0, 0)
 
         self.rect = self.brick.get_rect()
 
@@ -324,9 +323,12 @@ class Map():
                     mountainPart = ImageRect(self.screen, "OWmtDotLeft", Map.BRICK_SIZE, Map.BRICK_SIZE, ncol * dx, nrow * dy, "sceneryImages")
                     mountains.add(mountainPart)
 
-                elif col == "p" or col == "P":
-                    pipe = ImageRect(self.screen, self.pipeFile, Map.BRICK_SIZE, Map.BRICK_SIZE, ncol * dx, nrow * dy)
-                    pipes.add(pipe)
+                elif col == "p":
+                    pipePart = ImageRect(self.screen, self.pipePartFile, int(Map.PS * 0.9), Map.BRICK_SIZE, ncol * dx + int(Map.BRICK_SIZE * 0.1), nrow * dy)
+                    pipes.add(pipePart)
+                elif col == "P":
+                    pipeTop = ImageRect(self.screen, self.pipeTopFile, Map.PS, Map.BRICK_SIZE, ncol * dx, nrow * dy)
+                    pipes.add(pipeTop)
 
 
     def blitme(self, floor, stairs, floor2, smallPitfalls, largePitfalls, goombas, clouds, bushes, mysteryBoxes, boxes, flag, castle, mountains, pipes):
@@ -370,4 +372,4 @@ class Map():
             self.screen.blit(rect.image, rect)
 
         for rect in pipes:
-            self.screen.blit(self.pipe.image, rect)
+            self.screen.blit(rect.image, rect)
