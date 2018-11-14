@@ -10,7 +10,7 @@ class Map():
     PX = 86
     def __init__(self, screen, ai_settings, mazefile, brickfile, floor, stairfile, stairs,
                  floor2, pitfallS, smallPitfalls, pitfallX, largePitfalls, goombas, cloudFile, clouds, bushFile, bushes, mysteryBoxFile, mysteryBoxes, boxFile, boxes, flagTopFile,
-                 flagPartFile, flag, castleTopFile, castleTopFile2, castleDoorTopFile, castleDoorPartFile, castle, mountains):
+                 flagPartFile, flag, castleTopFile, castleTopFile2, castleDoorTopFile, castleDoorPartFile, castle, mountains, pipeFile, pipes):
         self.screen = screen
         self.filename = mazefile
         self.ai_settings = ai_settings
@@ -26,6 +26,7 @@ class Map():
         self.castleTopFile2 = castleTopFile2
         self.castleDoorTopFile = castleDoorTopFile
         self.castleDoorPartFile = castleDoorPartFile
+        self.pipeFile = pipeFile
         self.pitfallS = pitfallS
         self.pitfallX = pitfallX
         with open(self.filename, "r") as f:
@@ -63,6 +64,8 @@ class Map():
 
         self.castleDoorPart = ImageRect(screen, castleDoorPartFile, sz, sz, 0, 0)
 
+        self.pipe = ImageRect(screen, pipeFile, sz, sz, 0, 0)
+
         self.rect = self.brick.get_rect()
 
         self.deltax = self.deltay = Map.BRICK_SIZE
@@ -73,7 +76,7 @@ class Map():
         self.largePitDeltaX = Map.PX
         self.largePitDeltaY = Map.BRICK_SIZE
 
-        self.build(floor, stairs, floor2, smallPitfalls, largePitfalls, goombas, clouds, bushes, mysteryBoxes, boxes, flag, castle, mountains)
+        self.build(floor, stairs, floor2, smallPitfalls, largePitfalls, goombas, clouds, bushes, mysteryBoxes, boxes, flag, castle, mountains, pipes)
 
         # self.x_direction = .25
         # self.y_direction = 2
@@ -81,7 +84,7 @@ class Map():
         self.movingRight = False
         self.movingLeft = False
 
-    def update(self, floor, stairs, floor2, smallPitFalls, largePitfalls, clouds, bushes, mysteryBoxes, boxes, flag, castle, mountains):
+    def update(self, floor, stairs, floor2, smallPitFalls, largePitfalls, clouds, bushes, mysteryBoxes, boxes, flag, castle, mountains, pipes):
         #random comment
         for rect in floor.sprites():
             if self.movingRight:
@@ -203,7 +206,17 @@ class Map():
             else:
                 rect.movingLeft = False
 
-    def build(self, floor, stairs, floor2, smallPitfalls, largePitfalls, goombas, clouds, bushes, mysteryBoxes, boxes, flag, castle, mountains): # , mountains
+        for rect in pipes.sprites():
+            if self.movingRight:
+                rect.movingRight = True
+            else:
+                rect.movingRight = False
+            if self.movingLeft:
+                rect.movingLeft = True
+            else:
+                rect.movingLeft = False
+
+    def build(self, floor, stairs, floor2, smallPitfalls, largePitfalls, goombas, clouds, bushes, mysteryBoxes, boxes, flag, castle, mountains, pipes):
         r = self.brick.rect
         w, h = r.width, r.height
         dx, dy = self.deltax, self.deltay
@@ -311,7 +324,12 @@ class Map():
                     mountainPart = ImageRect(self.screen, "OWmtDotLeft", Map.BRICK_SIZE, Map.BRICK_SIZE, ncol * dx, nrow * dy, "sceneryImages")
                     mountains.add(mountainPart)
 
-    def blitme(self, floor, stairs, floor2, smallPitfalls, largePitfalls, goombas, clouds, bushes, mysteryBoxes, boxes, flag, castle, mountains):
+                elif col == "p" or col == "P":
+                    pipe = ImageRect(self.screen, self.pipeFile, Map.BRICK_SIZE, Map.BRICK_SIZE, ncol * dx, nrow * dy)
+                    pipes.add(pipe)
+
+
+    def blitme(self, floor, stairs, floor2, smallPitfalls, largePitfalls, goombas, clouds, bushes, mysteryBoxes, boxes, flag, castle, mountains, pipes):
         for rect in floor:
             self.screen.blit(self.brick.image, rect)
 
@@ -350,3 +368,6 @@ class Map():
 
         for rect in mountains:
             self.screen.blit(rect.image, rect)
+
+        for rect in pipes:
+            self.screen.blit(self.pipe.image, rect)
